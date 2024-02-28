@@ -1,0 +1,50 @@
+Utilisation des options de la commande ls :
+1) ls
+2) ls -l
+3) ls -al
+4) ls
+5) ls -r
+6) ls -l --block-size=M
+7) ls -sh
+8) ls -t
+9) ls -t -r
+10) ls -s -S -r
+11) ls -s -S
+
+Utilisation des meta-caracteres avec la commande ls :
+1) ls -d *conf*
+2) ls -d c*
+3) ls -d rc[1-9]*
+4) ls -d *.conf
+
+Droits de base en notation octale :
+1) chmod 600 toto
+2) chmod 640 toto
+3) chmod 655 toto
+
+Droits de base en notation relative :
+1) rw-rw----
+2) rwxrwx--x
+3) rwxrwx--x
+4) rwx-wx--x
+5) rwx-wx--x
+6) rwx--x---
+
+Utilisation de la commande ps :
+1) ps -rT
+2) ps -urT
+3) ps aux
+4) ps axjf
+
+Dependances de processus :
+1) La console lance un programme
+2) La console reste ouverte (il ne se passe rien)
+3) xeyes reste ouvert
+4) Avec l'option sigkill la console et xeyes se ferment tout les deux
+5) xeyes se lance et la console est utilisable
+6) La console se ferme
+7) xeyes tourne encore car il est en demon et il ne dépend plus de son parent
+
+Surveillance :
+1) Les processus sont classés par le poucentage d'utilisation du CPU
+2) On peut utiliser la touche k du clavier pour kill un processus

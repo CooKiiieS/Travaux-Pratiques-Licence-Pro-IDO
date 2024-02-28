@@ -1,0 +1,36 @@
+Fichier i1-tp1.log
+
+1) cd /home/test
+
+2) ls
+
+3) rm /home/test/*
+
+4) ça fonctionne si on essaye de creer un autre dossier avec des
+fichiers dedans et qu'on supprime tout
+
+5) On se situe deja dans root :
+   mkdir home
+   mkdir ./home/rt1
+   mkdir ./home/rt1/xyz
+   mkdir ./home/rt1/xyz/public-html
+   mkdir ./home/rt1/xyz/programmes
+   mkdir ./home/rt1/xyz/public_html/docs
+   mkdir ./home/rt1/xyz/public-html/images
+   touch ./home/rt1/xyz/public-html/index.htm
+   mkdir ./home/rt1/xyz/programmes/langage-c
+   touch ./home/rt1/xyz/programmes/a.c
+   mkdir ./home/rt1/xyz/programmes/java
+   touch ./home/rt1/xyz/programmes/java/TO.java
+   mkdir ./home/rt1/xyz/programmes/php
+
+6) nano index.htm
+   <h1>Bonjour !!!</h1>
+
+7) cat index.htm
+
+8) cp ./home/rt1//xyz/programmes/ ./home/rt1/xyz/public-html/images/
+
+9) mv ./home/rt1/xyz/programmes/ ./home/rt1/xyz/public_html/docs/
+
+10) tree ./home/rt1/xyz/public_html/docs 
